@@ -10,10 +10,10 @@ Start by creating a HashMap class. Proceed to create the following methods:
       hash_code = 0
       prime_number = 31
         
-      key.each_char { |char| hash_code = prime_number * hash_code + char.ord }
-        
-      hash_code
-    end
+      for char in key:
+        hash_code = prime_number * hash_code + ord(char)
+      return hash_code
+      
   ```
   > [!NOTE]
   > You are free to use that, or if you wish, you can conduct your own research. Beware this is a deep deep rabbit hole.
